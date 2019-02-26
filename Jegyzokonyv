@@ -1,0 +1,16 @@
+Az OkosotthonGAIN Kft.(megbízó) és a La Familia GAIN Bt.(megbízott) között szerződés köttetik a következő tételekről.
+A megbízó szeretne egy olyan hordozható dobozt, amiben néhány egyszerű szenzort helyezünk el. Ezen szenzorok adatait számítógépen szeretnénk grafikonok segítségével megjeleníteni.
+A demonstráció lényege, hogy középiskolásoknak megmutassuk a GAIN milyen jó a Soproni Egyetem berkein belül.
+A doboz összeállításához kapunk:
+                  -3db Raspberry Pi 3
+                  -1db breadboard
+                  -1db fém doboz(60cm*70cm)
+                  -1db flame sensor
+                  -1db DHT11 páratartalom és hőmérséklet sensor
+                  -1db sound sensor
+                  -1db router
+                  -1db switch
+                  -5db RJ45 csatlakozókkal ellátott kábel(1m)
+                  -1db 4-es elosztó
+                  -30db apa/anya 1 pines kábelek 
+A megbízó böngészőből szeretné megjeleníteni az adatokat, realtime és hisztorikus módon is.

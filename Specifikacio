@@ -1,0 +1,10 @@
+A hordozható okosdobozhoz egy android applikáció fejlesztése.
+A dobozban jelenlévő szenzorok: hőmérséklet, páratartalom, hang, tűz érzékelő.
+Az alkalmazás célja, hogy a szenzorok által gyűjtött adatokat grafikonokon ábrázoljuk.
+
+Rendszerbe implementálás:
+Ezen szenzorok adatait egy SQL alapú adatbázisba mentjük, illetve az MQTT protokoll használatával valós időben JSON formátumban publikáljuk egy brókerre. Ezáltal hisztorikus és realtime megjelenítést is megvalósíthatunk az appban.
+Az alkalmazásról:
+Menürendszerben kiválasztható a szenzor, aminek az adatait látni szeretnénk. Kiválasztás után rögtön a realtime adatokat jeleníti meg az adott szenzortól. Ha hisztorikus adatokat szeretnénk látni, azt ezen a lapon adhatjuk meg, erre két lehetőségünk van. Legördülő menüben, 1nap, 1hét, 10nap, 1hónapra visszamenőleg. Illetve csúszkákkal állítható egy időintervallum, amin belül szeretnénk látni az adatokat.
+Minimál dizájn, melyet március 19.-re rajzokkal, alprogramokkal bemutatunk.
+
